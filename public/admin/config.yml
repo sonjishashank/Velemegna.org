@@ -3,7 +3,7 @@ backend:
   repo: sonjishashank/Velemegna.org
   branch: main
   auth_type: implicit
-  app_id: Ov23li36ghtE9dAaaoEm
+  client_id: Ov23li36ghtE9dAaaoEm
 
 media_folder: public/newsletters
 public_folder: /newsletters
