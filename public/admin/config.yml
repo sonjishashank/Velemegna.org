@@ -2,8 +2,8 @@ backend:
   name: github
   repo: sonjishashank/Velemegna.org
   branch: main
-  auth_type: pkce
-  client_id: Ov23li36ghtE9dAaaoEm
+  base_url: https://www.velemegna.org
+  auth_endpoint: api/callback
 
 media_folder: public/newsletters
 public_folder: /newsletters
