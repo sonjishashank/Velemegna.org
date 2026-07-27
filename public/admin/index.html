@@ -7,6 +7,208 @@
     <title>Content Manager</title>
   </head>
   <body>
+    <script>window.CMS_MANUAL_INIT = true;</script>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      CMS.init({
+        config: {
+          backend: {
+            name: 'github',
+            repo: 'sonjishashank/Velemegna.org',
+            branch: 'main',
+            auth_type: 'implicit',
+            app_id: 'Ov23li36ghtE9dAaaoEm',
+          },
+          media_folder: 'public/newsletters',
+          public_folder: '/newsletters',
+          collections: [
+            {
+              name: 'newsletters',
+              label: 'Newsletters',
+              files: [{
+                name: 'newsletters',
+                label: 'Newsletter List',
+                file: 'src/content/newsletters.json',
+                fields: [{
+                  name: 'newsletters', label: 'Newsletters', widget: 'list',
+                  fields: [
+                    { name: 'month', label: 'Period (e.g. Jan - March 2025)', widget: 'string' },
+                    { name: 'title', label: 'Title', widget: 'string' },
+                    { name: 'url', label: 'PDF File', widget: 'file', media_folder: '/public/newsletters', public_folder: '/newsletters' },
+                    { name: 'imageUrl', label: 'Cover Image', widget: 'image' },
+                  ],
+                }],
+              }],
+            },
+            {
+              name: 'gallery',
+              label: 'Gallery',
+              files: [{
+                name: 'gallery',
+                label: 'Gallery Images & Videos',
+                file: 'src/content/gallery.json',
+                fields: [
+                  { name: 'images', label: 'Images', widget: 'list', fields: [
+                    { name: 'url', label: 'Image URL', widget: 'image' },
+                    { name: 'title', label: 'Caption', widget: 'string' },
+                  ]},
+                  { name: 'videos', label: 'YouTube Embed URLs', widget: 'list', field: { name: 'url', label: 'YouTube Embed URL', widget: 'string' } },
+                ],
+              }],
+            },
+            {
+              name: 'about',
+              label: 'About Page',
+              files: [{
+                name: 'about',
+                label: 'About Content',
+                file: 'src/content/about.json',
+                fields: [
+                  { name: 'timeline', label: 'Timeline', widget: 'list', fields: [
+                    { name: 'year', label: 'Year', widget: 'string' },
+                    { name: 'title', label: 'Title', widget: 'string' },
+                    { name: 'description', label: 'Description', widget: 'text' },
+                  ]},
+                  { name: 'achievements', label: 'Achievements', widget: 'list', fields: [
+                    { name: 'title', label: 'Stat (e.g. 92%)', widget: 'string' },
+                    { name: 'description', label: 'Label', widget: 'string' },
+                  ]},
+                  { name: 'boardMembers', label: 'Board Members', widget: 'list', fields: [
+                    { name: 'name', label: 'Name', widget: 'string' },
+                    { name: 'position', label: 'Position', widget: 'string' },
+                    { name: 'description', label: 'Bio', widget: 'text' },
+                    { name: 'image', label: 'Photo', widget: 'image' },
+                  ]},
+                ],
+              }],
+            },
+            {
+              name: 'hospital',
+              label: 'Hospital Page',
+              files: [{
+                name: 'hospital',
+                label: 'Hospital Content',
+                file: 'src/content/hospital.json',
+                fields: [
+                  { name: 'equipment', label: 'Equipment', widget: 'list', fields: [
+                    { name: 'title', label: 'Name', widget: 'string' },
+                    { name: 'description', label: 'Description', widget: 'string' },
+                    { name: 'image', label: 'Image', widget: 'image' },
+                  ]},
+                  { name: 'doctors', label: 'Doctors', widget: 'list', fields: [
+                    { name: 'name', label: 'Name', widget: 'string' },
+                    { name: 'specialization', label: 'Specialization', widget: 'string' },
+                    { name: 'image', label: 'Photo', widget: 'image' },
+                  ]},
+                  { name: 'insuranceProviders', label: 'Insurance Providers', widget: 'list', fields: [
+                    { name: 'name', label: 'Name', widget: 'string' },
+                    { name: 'category', label: 'Category', widget: 'select', options: ['Government', 'TPA', 'Private'] },
+                    { name: 'logo', label: 'Logo', widget: 'image' },
+                  ]},
+                ],
+              }],
+            },
+            {
+              name: 'vision_centers',
+              label: 'Vision Centers',
+              files: [{
+                name: 'vision_centers',
+                label: 'Vision Centers',
+                file: 'src/content/vision-centers.json',
+                fields: [{
+                  name: 'centers', label: 'Centers', widget: 'list', fields: [
+                    { name: 'name', label: 'Center Name', widget: 'string' },
+                    { name: 'phone', label: 'Phone', widget: 'string' },
+                    { name: 'address', label: 'Address', widget: 'string' },
+                    { name: 'image', label: 'Image', widget: 'image' },
+                    { name: 'coordinates', label: 'Coordinates [lat, lng]', widget: 'list', field: { name: 'value', label: 'Value', widget: 'number' } },
+                  ],
+                }],
+              }],
+            },
+            {
+              name: 'childrens_home',
+              label: "Children's Home Page",
+              files: [{
+                name: 'childrens_home',
+                label: "Children's Home Content",
+                file: 'src/content/childrens-home.json',
+                fields: [
+                  { name: 'title', label: 'Page Title', widget: 'string' },
+                  { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+                  { name: 'impactTitle', label: 'Impact Section Title', widget: 'string' },
+                  { name: 'impactDescription1', label: 'Impact Description 1', widget: 'text' },
+                  { name: 'impactDescription2', label: 'Impact Description 2', widget: 'text' },
+                  { name: 'impactDescription3', label: 'Impact Description 3', widget: 'text' },
+                  { name: 'heroImage', label: 'Hero Image', widget: 'image' },
+                  { name: 'programs', label: 'Programs', widget: 'list', fields: [
+                    { name: 'title', label: 'Title', widget: 'string' },
+                    { name: 'description', label: 'Description', widget: 'string' },
+                  ]},
+                  { name: 'galleryImages', label: 'Gallery Images', widget: 'list', field: { name: 'url', label: 'Image URL', widget: 'image' } },
+                ],
+              }],
+            },
+            {
+              name: 'leprosy_care',
+              label: 'Leprosy Care Page',
+              files: [{
+                name: 'leprosy_care',
+                label: 'Leprosy Care Content',
+                file: 'src/content/leprosy-care.json',
+                fields: [
+                  { name: 'title', label: 'Page Title', widget: 'string' },
+                  { name: 'description', label: 'Main Description', widget: 'text' },
+                  { name: 'missionTitle', label: 'Mission Title', widget: 'string' },
+                  { name: 'missionDescription', label: 'Mission Description', widget: 'text' },
+                  { name: 'patientsTreated', label: 'Patients Treated Stat', widget: 'string' },
+                  { name: 'yearsOfService', label: 'Years of Service Stat', widget: 'string' },
+                  { name: 'heroImage', label: 'Hero Image', widget: 'image' },
+                  { name: 'services', label: 'Services', widget: 'list', fields: [
+                    { name: 'title', label: 'Title', widget: 'string' },
+                    { name: 'description', label: 'Description', widget: 'string' },
+                  ]},
+                ],
+              }],
+            },
+            {
+              name: 'donate',
+              label: 'Donate Page',
+              files: [{
+                name: 'donate',
+                label: 'Donate Content',
+                file: 'src/content/donate.json',
+                fields: [
+                  { name: 'title', label: 'Page Title', widget: 'string' },
+                  { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+                  { name: 'donationUrl', label: 'Razorpay Donation URL', widget: 'string' },
+                  { name: 'causes', label: 'Causes', widget: 'list', fields: [
+                    { name: 'title', label: 'Title', widget: 'string' },
+                    { name: 'description', label: 'Description', widget: 'text' },
+                    { name: 'impact', label: 'Impact Statement', widget: 'string' },
+                  ]},
+                ],
+              }],
+            },
+            {
+              name: 'appointment',
+              label: 'Appointment Page',
+              files: [{
+                name: 'appointment',
+                label: 'Appointment Content',
+                file: 'src/content/appointment.json',
+                fields: [
+                  { name: 'title', label: 'Page Title', widget: 'string' },
+                  { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+                  { name: 'phones', label: 'Phone Numbers', widget: 'list', field: { name: 'number', label: 'Number', widget: 'string' } },
+                  { name: 'workingDays', label: 'Working Days', widget: 'string' },
+                  { name: 'timings', label: 'Timings', widget: 'string' },
+                ],
+              }],
+            },
+          ],
+        },
+      });
+    </script>
   </body>
 </html>

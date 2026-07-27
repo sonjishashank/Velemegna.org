@@ -356,7 +356,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline"
     >
-      Starset Consultancy Services
+      Starset-Solutions
     </a>
   </p>
 </div>

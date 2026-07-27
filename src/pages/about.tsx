@@ -13,7 +13,8 @@ import { BoardMemberSlider } from '../components/BoardMemberSlider';
 import aboutData from '@/content/about.json';
 
 const timeline = aboutData.timeline;
-const achievements = aboutData.achievements;
+const achievementIcons = [Users, Award, Heart, Calendar];
+const achievements = aboutData.achievements.map((a, i) => ({ ...a, icon: achievementIcons[i] }));
 const boardMembers1 = aboutData.boardMembers.slice(0, 3);
 const boardMembers = aboutData.boardMembers.slice(3);
 

@@ -1,6 +1,5 @@
 {
-  "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/((?!admin/config.yml|admin/index.html).*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
