@@ -1,0 +1,82 @@
+{
+  "newsletters": [
+    {
+      "month": "Jan - March 2025",
+      "title": "New Year Updates",
+      "url": "/newsletters/Velemegna  News Letter from Jan to March-2025.pdf",
+      "imageUrl": "/newsletters/jan-march-2025-newsletter.png"
+    },
+    {
+      "month": "Oct - Dec 2024",
+      "title": "Quarterly Updates",
+      "url": "/newsletters/Velemegna-News-Letter-from-Oct-Dec-2024.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/oct-dec%202024.png"
+    },
+    {
+      "month": "July - Sep 2024",
+      "title": "Summer Innovations",
+      "url": "/newsletters/Velemegna-News-Letter-from-July-Sep-2024.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/july-sept%202024.png"
+    },
+    {
+      "month": "April - June 2024",
+      "title": "Spring Breakthroughs",
+      "url": "/newsletters/Velemegna-News-Letter-from-April-June-2024-2.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/April%20to%20june%202024.png"
+    },
+    {
+      "month": "Jan - March 2024",
+      "title": "New Year Vision",
+      "url": "/newsletters/Velemegna-News-Letter-from-Jan-March-2024.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/Jan%20to%20march%202024.png"
+    },
+    {
+      "month": "Oct - Dec 2023",
+      "title": "End of Year Review",
+      "url": "/newsletters/Velemegna-News-Letter-from-Oct-Dec-2023.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/oct-dec%202023.png"
+    },
+    {
+      "month": "July - Sep 2023",
+      "title": "Mid-year Highlights",
+      "url": "/newsletters/Velemegna-News-Letter-from-July-Sep-2023.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/july-sept%202023.png"
+    },
+    {
+      "month": "April - June 2023",
+      "title": "Spring Developments",
+      "url": "/newsletters/Velemegna-News-Letter-from-April-June-2023.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/April%20to%20june%202023.png"
+    },
+    {
+      "month": "Jan - March 2023",
+      "title": "Start of 2023",
+      "url": "/newsletters/Velemegna-News-Letter-from-Jan-March-2023.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/Jan%20to%20march%202023.png"
+    },
+    {
+      "month": "Oct - Dec 2022",
+      "title": "Year End Reflection",
+      "url": "/newsletters/Velemegna-News-Letter-from-Oct-to-Dec-2022.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/oct-dec%202022.png"
+    },
+    {
+      "month": "July - Sep 2022",
+      "title": "Quarterly Recap",
+      "url": "/newsletters/News-Letter-from-July-to-Sep-2022.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/july-sept%202022.png"
+    },
+    {
+      "month": "April - June 2022",
+      "title": "Spring Forward",
+      "url": "/newsletters/News-Letter-from-April-2022-to-June-2022-a.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/April-june%202022.png"
+    },
+    {
+      "month": "Jan - March 2022",
+      "title": "Beginning of 2022",
+      "url": "/newsletters/News-Letter-from-April-2022-to-June-2022-a.pdf",
+      "imageUrl": "https://velemegna.netlify.app/newsletters/jan-march%202022.png"
+    }
+  ]
+}

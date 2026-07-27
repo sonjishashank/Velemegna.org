@@ -1,0 +1,22 @@
+{
+  "title": "Support Our Cause",
+  "subtitle": "Your contribution helps us provide quality healthcare and social services to those in need.",
+  "donationUrl": "https://pages.razorpay.com/pl_NHjRCmidzzZSQ2/view",
+  "causes": [
+    {
+      "title": "Eye Surgery Program",
+      "description": "Provide sight-restoring surgeries to patients who cannot afford treatment. Each donation helps cover costs of cataract surgeries, corneal transplants, and other vision-saving procedures.",
+      "impact": "One donation can help restore sight to someone in need."
+    },
+    {
+      "title": "Children's Home",
+      "description": "Support education, shelter, nutrition, and care for underprivileged children at our Velemegna Children's Home, giving them opportunities for a brighter future.",
+      "impact": "Your contribution helps provide a loving home environment for children."
+    },
+    {
+      "title": "Leprosy Care Services",
+      "description": "Continue our founder's legacy of compassionate care for individuals affected by leprosy, providing medical treatment, rehabilitation, and community support.",
+      "impact": "Help restore dignity and provide essential care to those affected by leprosy."
+    }
+  ]
+}

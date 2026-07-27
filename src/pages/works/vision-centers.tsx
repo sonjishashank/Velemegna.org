@@ -7,98 +7,14 @@ import L from "leaflet"; // For marker customization
 import 'leaflet/dist/leaflet.css'; // Import Leaflet CSS
 import { Fade } from 'react-awesome-reveal'; // Use Fade or other animations from react-awesome-reveal
 
-const centers = [
-  { 
-    name: "Aurad", 
-    coordinates: [18.2534, 77.4136],
-    contact: {
-      phone: "+91 9108486526",
-      address: "Bhalke Complex, near Govt Hospital, Aurad"
-    },
-    image: "/newsletters/aurad.jpg"
-  },
-  { 
-    name: "Manna-E-Khelli", 
-    coordinates: [17.9591, 77.3569],
-    contact: {
-      phone: "+91 9945469343",
-      address: "Near KEB office, Rekulgi road, Manna-E-Khelli"
-    },
-    image: "/newsletters/manekhelli.jpg"
-  },
-  { 
-    name: "Chincholi", 
-    coordinates: [17.4648, 77.4197],
-    contact: {
-      phone: "+91 9632702945",
-      address: "Vimal Complex, Opposite to bus depot, Chincholi"
-    },
-    image: "/newsletters/chincholi.jpg"
-  },
-  { 
-    name: "Chituguppa", 
-    coordinates: [17.4727, 77.2065],
-    contact: {
-      phone: "+91 9353040863",
-      address: "Near Nehru Chowk, Chituguppa"
-    },
-    image: "/newsletters/chitguppa.jpg"
-  },
-  { 
-    name: "Zaheerabad", 
-    coordinates: [17.6815, 77.6098],
-    contact: {
-      phone: "+91 9481163708",
-      address: "Ratnamala Hospital, opposite to Anurag Theatre, Zaheerabad"
-    },
-    image: "/newsletters/zaheerabad.jpg"
-  },
-  { 
-    name: "Santpur", 
-    coordinates: [17.7893, 77.5291],
-    contact: {
-      phone: "+91 7022695758",
-      address: "Pashamiya Complex, opposite to police quarters, Santpur"
-    },
-    image: "/newsletters/santhpur.jpg"
-  },
-  { 
-    name: "Bhalki", 
-    coordinates: [18.0435, 77.2066],
-    contact: {
-      phone: "+91 7019776160",
-      address: "Near Balaji Temple Taluka Panchayat road, Bhalki"
-    },
-    image: "/newsletters/bhalki.jpg"
-  },
-  { 
-    name: "Basavakalayan", 
-    coordinates: [17.8745, 76.9498],
-    contact: {
-      phone: "+91 7090280064",
-      address: "Near Shivaji Park, Basavakalayan"
-    },
-    image: "/newsletters/bkalyan.jpg"
-  },
-  { 
-    name: "Sulepeth", 
-    coordinates: [17.4558, 77.1234],
-    contact: {
-      phone: "+91 9686775814",
-      address: "Sujjanshetty Complex, near bus stand, Sulepeth"
-    },
-    image: "/newsletters/sulepet.jpg"
-  },
-  { 
-    name: "Humnabad", 
-    coordinates: [17.7701, 77.1429],
-    contact: {
-      phone: "+91 8494998493",
-      address: "Opposite to Old Tahesil Office, Humnabad"
-    },
-    image: "/newsletters/humnabad.jpg"
-  }
-];
+import centersData from '@/content/vision-centers.json';
+
+const centers = centersData.centers.map((c) => ({
+  name: c.name,
+  coordinates: c.coordinates as [number, number],
+  contact: { phone: c.phone, address: c.address },
+  image: c.image,
+}));
 
 const bidarCoordinates = [17.9127, 77.5199]; // Coordinates of Bidar
 

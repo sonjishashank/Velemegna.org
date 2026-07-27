@@ -27,180 +27,26 @@ import {
 } from '@/components/ui/tabs';
 
 
+import hospitalData from '@/content/hospital.json';
+
+const { equipment, doctors, insuranceProviders } = hospitalData;
+
 const facilities = [
   {
     title: 'Operation Theaters',
-    description:
-      'State-of-the-art operation theaters equipped with the latest technology.',
+    description: 'State-of-the-art operation theaters equipped with the latest technology.',
     image: '/newsletters/operation.jpeg',
   },
   {
     title: 'Patient ward',
-    description:
-      'Room for patient to rest and recover',
+    description: 'Room for patient to rest and recover',
     image: '/newsletters/patient.jpeg',
   },
   {
     title: 'Optical lens',
-    description:
-      'Best optical lens for your eyes',
+    description: 'Best optical lens for your eyes',
     image: '/newsletters/optical.jpeg',
   },
-];
-
-// Add this new constant for equipment and facilities
-const equipment = [
-  {
-    title: 'Auto Refractor (AR)',
-    description: 'A device used in eye clinics to measure refractive errors.',
-    image: '/Velemegna Update/Auto Refractor (AR) machine is a device used in eye clinics to measure refractive errors.jpeg'
-  },
-  {
-    title: 'OCT (Optical Coherence Tomography)',
-    description: 'High-resolution imaging for glaucoma and retinal diseases.',
-    image: '/Velemegna Update/OCT (Optical Coherence Tomography) – High-resolution imaging for glaucoma and retinal diseases..jpeg'
-  },
-  {
-    title: 'HFA (Humphrey Field Analyzer)',
-    description: 'Visual field testing for glaucoma patients.',
-    image: '/Velemegna Update/HFA (Humphrey Field Analyzer) – Visual field testing for glaucoma patients..jpeg'
-  },
-  {
-    title: 'B-Scan Ultrasonography',
-    description: 'Detects retinal detachments, tumors, and other internal eye issues.',
-    image: '/Velemegna Update/B-Scan Ultrasonography – Detects retinal detachments, tumors, and other internal eye issues..jpeg'
-  },
-  {
-    title: 'Eye Star (Pentacam Topography)',
-    description: 'Corneal analysis for LASIK and keratoconus detection.',
-    image: '/Velemegna Update/Eye Star (PentacamTopography) – Corneal analysis for LASIK and keratoconus detection..jpeg'
-  },
-  {
-    title: 'Fundus Photography',
-    description: 'Retinal imaging to track eye diseases.',
-    image: '/Velemegna Update/Fundus Photography – Retinal imaging to track eye diseases..jpeg'
-  },
-  {
-    title: 'Laser Treatments',
-    description: 'YAG and PRP used for cataract and diabetic retinopathy.',
-    image: '/Velemegna Update/Laser Treatments (YAG, PRP) – Used for cataract, diabetic retinopathy..jpeg'
-  },
-  {
-    title: 'Vision Acuity Test',
-    description: 'Standard eye examination to measure visual acuity.',
-    image: '/Velemegna Update/vision acuity test.jpeg'
-  },
-  {
-    title: 'Optical Shop',
-    description: 'Wide range of frames and lenses available.',
-    image: '/Velemegna Update/Optical Shop.jpeg'
-  },
-  // {
-  //   title: 'Laboratory',
-  //   description: 'Well-equipped diagnostic facility.',
-  //   image: '/Velemegna Update/lab2.jpeg'
-  // }
-];
-
-const doctors = [
-  {
-    name: "Dr. Sybil",
-    image: "/Velemegna Update/Dr. Sybil.jpeg",
-    specialization: "MBBS, DOMS, IOLF (vellore) M.Sc, C.E.H. (London)"
-  },
-  {
-    name: "Dr. Humera",
-    image: "/Velemegna Update/DR. Humera.jpeg",
-    specialization: "DODNB(Ophthalmologist)"
-  },
-  {
-    name: "Dr. K Mukta Bai D",
-    image: "/Velemegna Update/Dr K Mukta Bai D.jpeg",
-    specialization: "MBBS MS ophthalmology"
-  }
-];
-
-const insuranceProviders = [
-  {
-    name: "Yeshasvini Health Insurance",
-    logo: "/insurance/1.png",
-    category: "Government"
-  },
-  {
-    name: "Medi Assist Health Insurance",
-    logo: "/insurance/2.png",
-    category: "TPA"
-  },
-  {
-    name: "Paramount Health Insurance",
-    logo: "/insurance/15.png",
-    category: "Private"
-  },
-  {
-    name: "Star Health Insurance",
-    logo: "/insurance/3.png",
-    category: "Private"
-  },
-  {
-    name: "Care Health Insurance",
-    logo: "/insurance/4.png",
-    category: "Private"
-  },
-  {
-    name: "Arogya Raksha Health Insurance",
-    logo: "/insurance/5.png",
-    category: "Government"
-  },
-  {
-    name: "Bajaj Allianz Health Insurance",
-    logo: "/insurance/6.png",
-    category: "Private"
-  },
-  {
-    name: "MD India Health Insurance",
-    logo: "/insurance/10.png",
-    category: "TPA"
-  },
-  {
-    name: "FHPL Healthcare Insurance",
-    logo: "/insurance/16.png",
-    category: "TPA"
-  },
-  {
-    name: "Medvantage Health Insurance",
-    logo: "/insurance/7.png",
-    category: "TPA"
-  },
-  {
-    name: "Iffco Tokio Health Insurance",
-    logo: "/insurance/8.png",
-    category: "Private"
-  },
-  {
-    name: "Aditya Birla Health Insurance",
-    logo: "/insurance/9.png",
-    category: "Private"
-  },
-  {
-    name: "SBI Health Insurance",
-    logo: "/insurance/12.png",
-    category: "Private"
-  },
-  {
-    name: "Ayushman Bharat Arogya Karnataka",
-    logo: "/insurance/11.png",
-    category: "Government"
-  },
-  {
-    name: "ESI Health Insurance",
-    logo: "/insurance/13.png",
-    category: "Government"
-  },
-  {
-    name: "Manipal Cigna Health Insurance",
-    logo: "/insurance/14.png",
-    category: "Private"
-  }
 ];
 
 export default function Hospital() {

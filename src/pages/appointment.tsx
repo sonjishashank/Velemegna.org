@@ -2,6 +2,9 @@ import { motion } from 'framer-motion';
 import { Phone, Calendar, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import apptData from '@/content/appointment.json';
+
+const { title, subtitle, phones, workingDays, timings } = apptData;
 
 export default function Appointment() {
   return (
@@ -11,19 +14,17 @@ export default function Appointment() {
         animate={{ opacity: 1, y: 0 }}
         className="max-w-3xl mx-auto text-center space-y-8"
       >
-        <h1 className="text-4xl font-bold mb-4">Book Your Appointment</h1>
-        <p className="text-xl text-muted-foreground mb-8">
-          To schedule an appointment with our experienced doctors, please call us at:
-        </p>
+        <h1 className="text-4xl font-bold mb-4">{title}</h1>
+        <p className="text-xl text-muted-foreground mb-8">{subtitle}</p>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mb-12">
           <Card>
             <CardContent className="pt-6 text-center">
               <Phone className="w-12 h-12 mx-auto mb-4 text-primary" />
               <h3 className="font-semibold mb-2">Call Us</h3>
-              <p className="text-lg font-medium text-primary">08482230567</p>
-              <p className="text-lg font-medium text-primary">230460</p>
-              <p className="text-lg font-medium text-primary">9611643512</p>
+              {phones.map((p) => (
+                <p key={p} className="text-lg font-medium text-primary">{p}</p>
+              ))}
             </CardContent>
           </Card>
 
@@ -31,7 +32,7 @@ export default function Appointment() {
             <CardContent className="pt-6 text-center">
               <Calendar className="w-12 h-12 mx-auto mb-4 text-primary" />
               <h3 className="font-semibold mb-2">Working Days</h3>
-              <p className="text-muted-foreground">Monday - Saturday</p>
+              <p className="text-muted-foreground">{workingDays}</p>
             </CardContent>
           </Card>
 
@@ -39,7 +40,7 @@ export default function Appointment() {
             <CardContent className="pt-6 text-center">
               <Clock className="w-12 h-12 mx-auto mb-4 text-primary" />
               <h3 className="font-semibold mb-2">Timings</h3>
-              <p className="text-muted-foreground">9:00 AM - 5:00 PM</p>
+              <p className="text-muted-foreground">{timings}</p>
             </CardContent>
           </Card>
         </div>

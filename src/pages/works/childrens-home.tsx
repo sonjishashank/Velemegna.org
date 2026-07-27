@@ -2,49 +2,17 @@ import { motion } from 'framer-motion';
 import { Book, Heart, Home, Users } from 'lucide-react';
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
+import chData from '@/content/childrens-home.json';
 
-const programs = [
-  {
-    icon: Book,
-    title: 'Education',
-    description: 'Quality education and academic support.',
-  },
-  {
-    icon: Heart,
-    title: 'Healthcare',
-    description: 'Regular health check-ups and medical care.',
-  },
-  {
-    icon: Users,
-    title: 'Life Skills',
-    description: 'Training in essential life skills.',
-  },
-  {
-    icon: Home,
-    title: 'Safe Environment',
-    description: 'Secure and nurturing living space.',
-  },
-];
+const iconMap: Record<string, React.ElementType> = { Book, Heart, Home, Users };
+const programIcons = ['Book', 'Heart', 'Users', 'Home'];
 
-// Add an images array for the gallery section
-const galleryImages = [
-  "/newsletters/childrens home/1.jpeg",
-  "/newsletters/childrens home/2.jpeg",
-  "/newsletters/childrens home/3.jpeg",
-  "/newsletters/childrens home/4.jpeg",
-  "/newsletters/childrens home/5.jpeg",
-  "/newsletters/childrens home/6.jpeg",
-  "/newsletters/childrens home/7.jpeg",
-  "/newsletters/childrens home/8.jpeg",
-  "/newsletters/childrens home/10.jpeg",
-  "/newsletters/childrens home/11.jpeg",
-  "/newsletters/childrens home/12.jpeg"
-];
+const { galleryImages, title, subtitle, impactTitle, impactDescription1, impactDescription2, impactDescription3, heroImage } = chData;
+const programs = chData.programs.map((p, i) => ({ ...p, icon: iconMap[programIcons[i]] }));
 
 export default function ChildrensHome() {
   return (
@@ -56,11 +24,8 @@ export default function ChildrensHome() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h1 className="text-4xl font-bold mb-6">Children's Home</h1>
-          <p className="text-lg text-muted-foreground mb-8">
-            Providing a nurturing environment for underprivileged children,
-            focusing on their education, health, and overall development.
-          </p>
+          <h1 className="text-4xl font-bold mb-6">{title}</h1>
+          <p className="text-lg text-muted-foreground mb-8">{subtitle}</p>
         </motion.div>
       </section>
 
@@ -72,10 +37,8 @@ export default function ChildrensHome() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold mb-4">Our Impact</h2>
-            <p className="text-lg text-muted-foreground mb-6">
-              Navjeevan Children's Home, established in 2008 by Dr. Sybil Salins, was born out of a heartfelt desire to provide a better future for children from marginalized backgrounds. Dr. Salins was deeply moved when she discovered that many children of leprosy-affected families were begging instead of attending school, lacked proper nutrition, and were living in unhealthy environments. Inspired by her parents' vision and a commitment to the well-being of these children, she took action to ensure they received care, support, and education.
-            </p>
+            <h2 className="text-3xl font-bold mb-4">{impactTitle}</h2>
+            <p className="text-lg text-muted-foreground mb-6">{impactDescription1}</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 20 }}
@@ -85,13 +48,12 @@ export default function ChildrensHome() {
             className="rounded-lg overflow-hidden h-[400px]"
           >
             <img
-              src="/newsletters/childrens home/9.jpeg"
+              src={heroImage}
               alt="Children playing"
               className="w-full h-full object-cover"
             />
           </motion.div>
         </div>
-        {/* New paragraph below the image */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -99,9 +61,7 @@ export default function ChildrensHome() {
           viewport={{ once: true }}
           className="mt-8 text-center"
         >
-          <p className="text-lg text-muted-foreground mb-6">
-            Navjeevan Children's Home is a safe haven for orphans, children of single parents, the destitute, HIV-affected children, the handicapped, and others in need. Registered under Reg. No. KA040005V514, the home currently supports 41 children, all of whom attend school and thrive in a nurturing and healthy environment. To provide holistic care, the home is staffed with two caretakers, one teacher, one warden, two cooks, and one driver. A doctor regularly conducts health check-ups, ensuring the well-being of every child. The children are provided with three nutritious meals a day, along with books, uniforms (two sets each), casual clothing, and undergarments. They also enjoy opportunities for indoor and outdoor recreation, including play facilities and training in crafts and hobbies.
-          </p>
+          <p className="text-lg text-muted-foreground mb-6">{impactDescription2}</p>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -110,9 +70,7 @@ export default function ChildrensHome() {
           viewport={{ once: true }}
           className="mt-8 text-center"
         >
-          <p className="text-lg text-muted-foreground mb-6">
-            At Navjeevan, every effort is made to meet the children's basic needs while empowering them through education and personal development. The love and affection they receive mirror the care of a family, building their confidence and helping them grow physically and emotionally. Each child is encouraged to dream big and is equipped with the tools to become a productive and compassionate citizen of India. The children attend school daily with excitement, knowing they are supported by a dedicated team that prioritizes their safety and well-being. The warden and staff take special care to nurture their growth, ensuring they develop into empathetic individuals who will contribute positively to their communities.
-          </p>
+          <p className="text-lg text-muted-foreground mb-6">{impactDescription3}</p>
         </motion.div>
       </section>
 

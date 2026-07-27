@@ -2,34 +2,16 @@ import { motion } from 'framer-motion';
 import { ChevronFirst as FirstAid, Heart, Home, Users } from 'lucide-react';
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
+import leprosyData from '@/content/leprosy-care.json';
 
-const services = [
-  {
-    icon: FirstAid,
-    title: 'Medical Care',
-    description: 'Comprehensive medical treatment and wound care.',
-  },
-  {
-    icon: Home,
-    title: 'Rehabilitation',
-    description: 'Physical therapy and rehabilitation services.',
-  },
-  {
-    icon: Users,
-    title: 'Community Support',
-    description: 'Social integration and community acceptance programs.',
-  },
-  {
-    icon: Heart,
-    title: 'Counseling',
-    description: 'Mental health support and counseling services.',
-  },
-];
+const iconMap: Record<string, React.ElementType> = { FirstAid, Home, Users, Heart };
+const serviceIcons = ['FirstAid', 'Home', 'Users', 'Heart'];
+const services = leprosyData.services.map((s, i) => ({ ...s, icon: iconMap[serviceIcons[i]] }));
+const { title, description, missionTitle, missionDescription, patientsTreated, yearsOfService, heroImage } = leprosyData;
 
 export default function LeprosyCare() {
   return (
@@ -41,12 +23,8 @@ export default function LeprosyCare() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h1 className="text-4xl font-bold mb-6">Leprosy Care Centre</h1>
-          <p className="text-lg text-muted-foreground mb-8">
-        At Velemegna, one of the cornerstones of our mission is providing care and support to individuals affected by leprosy (Hansen's Disease). This medical condition, though treatable, has long subjected sufferers to unnecessary isolation and stigma, depriving them of normal human interaction.
-        Leprosy reduces the patient's sense of touch, leaving them unaware of dangers like fire or sharp objects, which can lead to injuries, disfigurements, and permanent disabilities. While certain types of leprosy were once highly contagious, modern medical advancements have made it possible for individuals with the disease to live fulfilling lives. They can form friendships, build loving relationships, and even marry, give birth to, and raise healthy children without any risk to others
-        For over three decades, Velemegna has been actively working to improve the lives of families in the leprosy colony of Chatnalli. Our approach has always been holistic, focusing on breaking the cycle of stigma and dependency. We aim to empower those we serve by helping them transition from begging to self-reliance, ensuring their spiritual, physical, and financial well-being. Beyond providing medical care, we advocate for their dignity, human rights, and the opportunity to lead a life of purpose and fulfillment. Through ongoing efforts, we remain dedicated to restoring hope, eliminating discrimination, and enabling the highest possible quality of life for those affected by leprosy.
-          </p>
+          <h1 className="text-4xl font-bold mb-6">{title}</h1>
+          <p className="text-lg text-muted-foreground mb-8">{description}</p>
         </motion.div>
       </section>
 
@@ -58,24 +36,16 @@ export default function LeprosyCare() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
-            <p className="text-lg text-muted-foreground mb-6">
-              We are committed to providing dignified care and support to
-              individuals affected by leprosy, working towards their complete
-              rehabilitation and social integration.
-            </p>
+            <h2 className="text-3xl font-bold mb-4">{missionTitle}</h2>
+            <p className="text-lg text-muted-foreground mb-6">{missionDescription}</p>
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center p-4 bg-muted rounded-lg">
-                <div className="text-2xl font-bold">1000+</div>
-                <div className="text-sm text-muted-foreground">
-                  Patients Treated
-                </div>
+                <div className="text-2xl font-bold">{patientsTreated}</div>
+                <div className="text-sm text-muted-foreground">Patients Treated</div>
               </div>
               <div className="text-center p-4 bg-muted rounded-lg">
-                <div className="text-2xl font-bold">30+</div>
-                <div className="text-sm text-muted-foreground">
-                  Years of Service
-                </div>
+                <div className="text-2xl font-bold">{yearsOfService}</div>
+                <div className="text-sm text-muted-foreground">Years of Service</div>
               </div>
             </div>
           </motion.div>
@@ -87,7 +57,7 @@ export default function LeprosyCare() {
             className="rounded-lg overflow-hidden"
           >
             <img
-              src="/newsletters/Slide20-300x169.jpg"
+              src={heroImage}
               alt="Medical care"
               className="w-full h-full object-cover"
             />

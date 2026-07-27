@@ -1,0 +1,28 @@
+{
+  "title": "Children's Home",
+  "subtitle": "Providing a nurturing environment for underprivileged children, focusing on their education, health, and overall development.",
+  "impactTitle": "Our Impact",
+  "impactDescription1": "Navjeevan Children's Home, established in 2008 by Dr. Sybil Salins, was born out of a heartfelt desire to provide a better future for children from marginalized backgrounds. Dr. Salins was deeply moved when she discovered that many children of leprosy-affected families were begging instead of attending school, lacked proper nutrition, and were living in unhealthy environments. Inspired by her parents' vision and a commitment to the well-being of these children, she took action to ensure they received care, support, and education.",
+  "impactDescription2": "Navjeevan Children's Home is a safe haven for orphans, children of single parents, the destitute, HIV-affected children, the handicapped, and others in need. Registered under Reg. No. KA040005V514, the home currently supports 41 children, all of whom attend school and thrive in a nurturing and healthy environment. To provide holistic care, the home is staffed with two caretakers, one teacher, one warden, two cooks, and one driver. A doctor regularly conducts health check-ups, ensuring the well-being of every child. The children are provided with three nutritious meals a day, along with books, uniforms (two sets each), casual clothing, and undergarments. They also enjoy opportunities for indoor and outdoor recreation, including play facilities and training in crafts and hobbies.",
+  "impactDescription3": "At Navjeevan, every effort is made to meet the children's basic needs while empowering them through education and personal development. The love and affection they receive mirror the care of a family, building their confidence and helping them grow physically and emotionally. Each child is encouraged to dream big and is equipped with the tools to become a productive and compassionate citizen of India.",
+  "heroImage": "/newsletters/childrens home/9.jpeg",
+  "programs": [
+    { "title": "Education", "description": "Quality education and academic support." },
+    { "title": "Healthcare", "description": "Regular health check-ups and medical care." },
+    { "title": "Life Skills", "description": "Training in essential life skills." },
+    { "title": "Safe Environment", "description": "Secure and nurturing living space." }
+  ],
+  "galleryImages": [
+    "/newsletters/childrens home/1.jpeg",
+    "/newsletters/childrens home/2.jpeg",
+    "/newsletters/childrens home/3.jpeg",
+    "/newsletters/childrens home/4.jpeg",
+    "/newsletters/childrens home/5.jpeg",
+    "/newsletters/childrens home/6.jpeg",
+    "/newsletters/childrens home/7.jpeg",
+    "/newsletters/childrens home/8.jpeg",
+    "/newsletters/childrens home/10.jpeg",
+    "/newsletters/childrens home/11.jpeg",
+    "/newsletters/childrens home/12.jpeg"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "carouselImages": [
+      {
+        "url": "/newsletters/IMG_5908-768x681.jpg",
+        "alt": "Modern hospital facility"
+      }
+    ]
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "Dedicated to providing quality eye care and social services to all segments of society, with a special focus on underprivileged communities."
+  },
+  "features": [
+    {
+      "icon": "Eye",
+      "title": "Eye Care Excellence",
+      "description": "State-of-the-art facilities and expert care for all your vision needs."
+    },
+    {
+      "icon": "Users",
+      "title": "Community Service",
+      "description": "Dedicated to serving our community through various outreach programs."
+    },
+    {
+      "icon": "Heart",
+      "title": "Compassionate Care",
+      "description": "Providing care with empathy and understanding for every patient."
+    }
+  ]
+}

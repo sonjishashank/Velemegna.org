@@ -1,0 +1,15 @@
+{
+  "title": "Leprosy Care Centre",
+  "description": "At Velemegna, one of the cornerstones of our mission is providing care and support to individuals affected by leprosy (Hansen's Disease). This medical condition, though treatable, has long subjected sufferers to unnecessary isolation and stigma, depriving them of normal human interaction. Leprosy reduces the patient's sense of touch, leaving them unaware of dangers like fire or sharp objects, which can lead to injuries, disfigurements, and permanent disabilities. While certain types of leprosy were once highly contagious, modern medical advancements have made it possible for individuals with the disease to live fulfilling lives. They can form friendships, build loving relationships, and even marry, give birth to, and raise healthy children without any risk to others. For over three decades, Velemegna has been actively working to improve the lives of families in the leprosy colony of Chatnalli. Our approach has always been holistic, focusing on breaking the cycle of stigma and dependency. We aim to empower those we serve by helping them transition from begging to self-reliance, ensuring their spiritual, physical, and financial well-being.",
+  "missionTitle": "Our Mission",
+  "missionDescription": "We are committed to providing dignified care and support to individuals affected by leprosy, working towards their complete rehabilitation and social integration.",
+  "patientsTreated": "1000+",
+  "yearsOfService": "30+",
+  "heroImage": "/newsletters/Slide20-300x169.jpg",
+  "services": [
+    { "title": "Medical Care", "description": "Comprehensive medical treatment and wound care." },
+    { "title": "Rehabilitation", "description": "Physical therapy and rehabilitation services." },
+    { "title": "Community Support", "description": "Social integration and community acceptance programs." },
+    { "title": "Counseling", "description": "Mental health support and counseling services." }
+  ]
+}

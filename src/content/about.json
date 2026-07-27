@@ -1,0 +1,101 @@
+{
+  "timeline": [
+    {
+      "year": "1969",
+      "title": "Foundation",
+      "description": "Establishment of Dr. Salins Eye Hospital, a \"Not for Profit\" institution dedicated to providing quality eye care to all segments of society, with a special focus on underprivileged communities."
+    },
+    {
+      "year": "1985",
+      "title": "Training and Capacity Building",
+      "description": "Launch of educational programs for doctors, surgeons, and vision technicians, with a unique focus on capacity building for eye hospitals across Karnataka."
+    },
+    {
+      "year": "1990",
+      "title": "Expansion of Services",
+      "description": "Expansion of community eye care services, including opening Vision Centers in Bidar and surrounding districts, as well as in Zaheerabad, Telangana."
+    },
+    {
+      "year": "2002",
+      "title": "Leadership Transition",
+      "description": "Dr. Sybil Salins takes over the leadership, carrying forward the legacy of her parents, Dr. and Dr. Mrs. Salins, with a vision to meet the growing demands of the community and improve eye care services."
+    },
+    {
+      "year": "2010",
+      "title": "Modernization",
+      "description": "Major upgrades to hospital facilities, including a move towards a paperless environment and the introduction of new technology to enhance transparency and efficiency."
+    },
+    {
+      "year": "2020",
+      "title": "Golden Jubilee & Pandemic Response",
+      "description": "Celebrating 50 years of service to the community while navigating the challenges of the pandemic, maintaining full patient care services with dedication and courage."
+    },
+    {
+      "year": "2025",
+      "title": "Expansion and Future Plans",
+      "description": "Ongoing project to build a new, state-of-the-art hospital building, including a 6,000 sq ft operation theater complex and additional facilities to further expand eye care services."
+    }
+  ],
+  "achievements": [
+    { "title": "92%", "description": "Patients satisfaction rate" },
+    { "title": "25,000+", "description": "Outreach Per Year" },
+    { "title": "3,500+", "description": "Surgeries Performed Per Year" },
+    { "title": "25,000+", "description": "OPD Per Year" }
+  ],
+  "boardMembers": [
+    {
+      "name": "Dr. Sunita Basker Abraham",
+      "position": "President",
+      "description": "MBBS, MD (Public Health and Community Medicine), Head, community Health Programs, Christian Medical Association of India, Bangalore",
+      "image": "/newsletters/sunita.jpg"
+    },
+    {
+      "name": "Dr. Sybil Meshramkar",
+      "position": "Director",
+      "description": "MBBS.M.Sc.CEH (London), DOMS(Vellore), ophthalmology Surgeon (Eye Specialist), Senior Eye Surgeon in Velemegna Eye Hospital, Golekhana Bidar Karnataka.",
+      "image": "/newsletters/Sybil.png"
+    },
+    {
+      "name": "Dr. Serina Ruth Stephen",
+      "position": "Secretary",
+      "description": "MBBS, DA, DNB(Anaesthesia), Professor, Department of Anaesthesia, CMC, Vellore 632004, TN, India.",
+      "image": "/newsletters/serina.png"
+    },
+    {
+      "name": "Mr. Praveen Arulkumar",
+      "position": "Treasurer",
+      "description": "BE (Electronics); MMS (Finance), Pricing Analyst at Gainwell Technologies, (Surya Wave, Electronic City, Bengaluru.",
+      "image": "/newsletters/Arul.png"
+    },
+    {
+      "name": "Mr. Edwin David",
+      "position": "Board Member",
+      "description": "Board Member of Velemegna.",
+      "image": "/newsletters/Edwin.png"
+    },
+    {
+      "name": "Mr. Akhilan",
+      "position": "Board Member",
+      "description": "Board Member of Velemegna.",
+      "image": "/newsletters/akhilan.png"
+    },
+    {
+      "name": "Ms. Dayamani",
+      "position": "Board Member",
+      "description": "Board Member of Velemegna.",
+      "image": "/newsletters/Dayamani.png"
+    },
+    {
+      "name": "Mr. John",
+      "position": "Board Member",
+      "description": "Board Member of Velemegna.",
+      "image": "/newsletters/john.png"
+    },
+    {
+      "name": "Mr. Kartikeya",
+      "position": "Board Member",
+      "description": "Board Member of Velemegna.",
+      "image": "/newsletters/Kartikeya.png"
+    }
+  ]
+}
