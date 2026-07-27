@@ -1,8 +1,6 @@
 {
-  "routes": [
-    { "src": "/admin/config.yml", "dest": "/admin/config.yml" },
-    { "src": "/admin/index.html", "dest": "/admin/index.html" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/((?!admin/config.yml|admin/index.html).*)", "destination": "/index.html" }
   ]
 }
