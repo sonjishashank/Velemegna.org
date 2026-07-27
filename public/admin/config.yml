@@ -2,7 +2,7 @@ backend:
   name: github
   repo: sonjishashank/Velemegna.org
   branch: main
-  auth_type: implicit
+  auth_type: pkce
   client_id: Ov23li36ghtE9dAaaoEm
 
 media_folder: public/newsletters
