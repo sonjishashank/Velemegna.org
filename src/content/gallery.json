@@ -1,36 +1,149 @@
 {
   "images": [
-    { "url": "newsletters/1.jpeg", "title": "Hospital Staff" },
-    { "url": "newsletters/4.jpeg", "title": "Free Camp Patient's" },
-    { "url": "newsletters/3.jpeg", "title": "World Glaucoma Week Awarness" },
-    { "url": "newsletters/2.jpeg", "title": "World Glaucoma Week Awarness" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image24.jpg", "title": "Vision Center Staff Training" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image54.jpg", "title": "Stake Holder Honouring" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image53.jpg", "title": "Stake Holder Honouring" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image52.jpg", "title": "In Patient Care" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image51.jpg", "title": "Vision Center Staff" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image50.jpg", "title": "Eye Donation Awareness" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image49.jpg", "title": "College's Ceremoney" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image48.jpg", "title": "Seva Partener's Meeting" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image47.jpg", "title": "Asha Worker's Training" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image46.jpg", "title": "World Disability Day Celebration" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image45.jpg", "title": "Pediatric Eye Care" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image44.jpg", "title": "Christmas Celebration With Staff" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image43.jpg", "title": "Sandeep Salin's Birthday Celebration" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image42.jpg", "title": "Dr. Tibo Felicitation" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image41.jpg", "title": "Lift Inaguration" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image40.jpg", "title": "Gallery Image" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image39.jpg", "title": "Dr. Sybil's Family" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image38.jpg", "title": "Pediatric Eye Care" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image37.jpg", "title": "Women's Day Celebration" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image36.jpg", "title": "Women's Day Celebration" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image35.jpg", "title": "Vision Centre Opening, Humnabad" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image34.jpg", "title": "World Sight Day Rally" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image32.jpg", "title": "Baridabad Farm" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image31.jpg", "title": "Santhpur Vision Centre Opening" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image30.jpg", "title": "SS College of Optometry Graduation" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image29.jpg", "title": "Chincholi Vision Centre Opening" },
-    { "url": "https://intellectuallyunavailable.github.io/velemegna/images/image40.jpg", "title": "Vineet's Birthday Celebration" }
+    {
+      "url": "/newsletters/july-update-1.jpeg",
+      "title": "Free Checkup on Founder's Day"
+    },
+    {
+      "url": "/newsletters/july-update-2.jpeg",
+      "title": "Free Eye Checkup"
+    },
+    {
+      "url": "/newsletters/july-update-3.jpeg",
+      "title": "Guest on Founder's Day Celebration"
+    },
+    {
+      "url": "/newsletters/july-update-4.jpeg",
+      "title": "Dr. Veerendra Sir Welcomes the Guest's"
+    },
+    {
+      "url": "/newsletters/july-update-5.jpeg",
+      "title": "Founder's Day Event"
+    },
+    {
+      "url": "newsletters/1.jpeg",
+      "title": "Hospital Staff"
+    },
+    {
+      "url": "newsletters/4.jpeg",
+      "title": "Free Camp Patient's"
+    },
+    {
+      "url": "newsletters/3.jpeg",
+      "title": "World Glaucoma Week Awarness"
+    },
+    {
+      "url": "newsletters/2.jpeg",
+      "title": "World Glaucoma Week Awarness"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image24.jpg",
+      "title": "Vision Center Staff Training"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image54.jpg",
+      "title": "Stake Holder Honouring"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image53.jpg",
+      "title": "Stake Holder Honouring"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image52.jpg",
+      "title": "In Patient Care"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image51.jpg",
+      "title": "Vision Center Staff"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image50.jpg",
+      "title": "Eye Donation Awareness"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image49.jpg",
+      "title": "College's Ceremoney"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image48.jpg",
+      "title": "Seva Partener's Meeting"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image47.jpg",
+      "title": "Asha Worker's Training"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image46.jpg",
+      "title": "World Disability Day Celebration"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image45.jpg",
+      "title": "Pediatric Eye Care"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image44.jpg",
+      "title": "Christmas Celebration With Staff"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image43.jpg",
+      "title": "Sandeep Salin's Birthday Celebration"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image42.jpg",
+      "title": "Dr. Tibo Felicitation"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image41.jpg",
+      "title": "Lift Inaguration"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image40.jpg",
+      "title": "Gallery Image"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image39.jpg",
+      "title": "Dr. Sybil's Family"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image38.jpg",
+      "title": "Pediatric Eye Care"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image37.jpg",
+      "title": "Women's Day Celebration"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image36.jpg",
+      "title": "Women's Day Celebration"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image35.jpg",
+      "title": "Vision Centre Opening, Humnabad"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image34.jpg",
+      "title": "World Sight Day Rally"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image32.jpg",
+      "title": "Baridabad Farm"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image31.jpg",
+      "title": "Santhpur Vision Centre Opening"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image30.jpg",
+      "title": "SS College of Optometry Graduation"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image29.jpg",
+      "title": "Chincholi Vision Centre Opening"
+    },
+    {
+      "url": "https://intellectuallyunavailable.github.io/velemegna/images/image40.jpg",
+      "title": "Vineet's Birthday Celebration"
+    }
   ],
   "videos": [
     "https://www.youtube.com/embed/NJYVGIPZ5iI?si=PE41Zr1hovMPyFfT",
