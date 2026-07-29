@@ -177,7 +177,7 @@ export default function Home() {
           >
             <blockquote
               className="instagram-media"
-              data-instgrm-permalink="https://www.instagram.com/p/DGOrWu1TyTu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              data-instgrm-permalink="https://www.instagram.com/reel/DZmIPvCPa0m/?igsh=dWtsNDRjNDhxYm5t"
               data-instgrm-version="14"
               style={{
                 maxWidth: "540px",
