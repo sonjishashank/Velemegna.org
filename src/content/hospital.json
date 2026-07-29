@@ -61,24 +61,93 @@
       "name": "Dr. K Mukta Bai D",
       "image": "/Velemegna Update/Dr K Mukta Bai D.jpeg",
       "specialization": "MBBS MS ophthalmology"
+    },
+    {
+      "specialization": "MBBS., DO, DNB Ophthalmology",
+      "name": "Dr. Jyoti Marotirao Chavan",
+      "image": "/newsletters/dr.jyoti.jpeg"
     }
   ],
   "insuranceProviders": [
-    { "name": "Yeshasvini Health Insurance", "logo": "/insurance/1.png", "category": "Government" },
-    { "name": "Medi Assist Health Insurance", "logo": "/insurance/2.png", "category": "TPA" },
-    { "name": "Paramount Health Insurance", "logo": "/insurance/15.png", "category": "Private" },
-    { "name": "Star Health Insurance", "logo": "/insurance/3.png", "category": "Private" },
-    { "name": "Care Health Insurance", "logo": "/insurance/4.png", "category": "Private" },
-    { "name": "Arogya Raksha Health Insurance", "logo": "/insurance/5.png", "category": "Government" },
-    { "name": "Bajaj Allianz Health Insurance", "logo": "/insurance/6.png", "category": "Private" },
-    { "name": "MD India Health Insurance", "logo": "/insurance/10.png", "category": "TPA" },
-    { "name": "FHPL Healthcare Insurance", "logo": "/insurance/16.png", "category": "TPA" },
-    { "name": "Medvantage Health Insurance", "logo": "/insurance/7.png", "category": "TPA" },
-    { "name": "United Healthcare Insurance", "logo": "/insurance/8.png", "category": "Private" },
-    { "name": "New India Assurance", "logo": "/insurance/9.png", "category": "Government" },
-    { "name": "Oriental Insurance", "logo": "/insurance/11.png", "category": "Government" },
-    { "name": "National Insurance", "logo": "/insurance/12.png", "category": "Government" },
-    { "name": "Raksha Health Insurance", "logo": "/insurance/13.png", "category": "TPA" },
-    { "name": "ICICI Lombard Health Insurance", "logo": "/insurance/14.png", "category": "Private" }
+    {
+      "name": "Yeshasvini Health Insurance",
+      "logo": "/insurance/1.png",
+      "category": "Government"
+    },
+    {
+      "name": "Medi Assist Health Insurance",
+      "logo": "/insurance/2.png",
+      "category": "TPA"
+    },
+    {
+      "name": "Paramount Health Insurance",
+      "logo": "/insurance/15.png",
+      "category": "Private"
+    },
+    {
+      "name": "Star Health Insurance",
+      "logo": "/insurance/3.png",
+      "category": "Private"
+    },
+    {
+      "name": "Care Health Insurance",
+      "logo": "/insurance/4.png",
+      "category": "Private"
+    },
+    {
+      "name": "Arogya Raksha Health Insurance",
+      "logo": "/insurance/5.png",
+      "category": "Government"
+    },
+    {
+      "name": "Bajaj Allianz Health Insurance",
+      "logo": "/insurance/6.png",
+      "category": "Private"
+    },
+    {
+      "name": "MD India Health Insurance",
+      "logo": "/insurance/10.png",
+      "category": "TPA"
+    },
+    {
+      "name": "FHPL Healthcare Insurance",
+      "logo": "/insurance/16.png",
+      "category": "TPA"
+    },
+    {
+      "name": "Medvantage Health Insurance",
+      "logo": "/insurance/7.png",
+      "category": "TPA"
+    },
+    {
+      "name": "United Healthcare Insurance",
+      "logo": "/insurance/8.png",
+      "category": "Private"
+    },
+    {
+      "name": "New India Assurance",
+      "logo": "/insurance/9.png",
+      "category": "Government"
+    },
+    {
+      "name": "Oriental Insurance",
+      "logo": "/insurance/11.png",
+      "category": "Government"
+    },
+    {
+      "name": "National Insurance",
+      "logo": "/insurance/12.png",
+      "category": "Government"
+    },
+    {
+      "name": "Raksha Health Insurance",
+      "logo": "/insurance/13.png",
+      "category": "TPA"
+    },
+    {
+      "name": "ICICI Lombard Health Insurance",
+      "logo": "/insurance/14.png",
+      "category": "Private"
+    }
   ]
 }
